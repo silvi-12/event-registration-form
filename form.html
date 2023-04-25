@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="form.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <a href="table.html"><i class="fa-solid fa-bars"></i></a>
+            <h1>Event Registration</h1>
+            <form action="">
+                <div class="left-div">
+                    <div class="input">
+                        Your name : <input type="text" placeholder="name">
+                        Email : <input type="email" placeholder="email">
+                        Phone no.: <input type="tel" placeholder="phone no.">
+                    </div>
+                    <div class="gender">
+                        Gender :
+                        <input id="male" type="radio" value="1" name="gender">
+                        <label for="male">Male</label>
+                        <input id="female" type="radio" value="1" name="gender">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="input">
+                        College name : <input type="text" placeholder="college name" size="65">
+                        Department : <input type="text" placeholder="dept. name">
+                    </div>
+                </div>
+                <div class="right-div">
+                    Father's name : <input type="text" placeholder="father's name">
+                    Mother's name : <input type="text" placeholder="mother's name">
+                    Address : <input type="text" placeholder="address">
+                    <div class="option-select"><label for="city">City</label>
+                        <select name="" id="city">
+                            <option value="">--select--</option>
+                            <option value="1">Nagpur</option>
+                            <option value="2">Pune</option>
+                            <option value="3">Bangalore</option>
+                            <option value="4">Hyderabad</option>
+                            <option value="5">Mumbai</option>
+                        </select>
+                        <label for="state">State</label>
+                        <select name="" id="state">
+                            <option value="">--select--</option>
+                            <option value="1">Maharashtra</option>
+                            <option value="2">Andhra Pradesh</option>
+                            <option value="3">Telangana</option>
+                        </select>
+                    </div>
+                    <div class="amount">
+                        Amount paid :
+                        <input id="yes" type="radio" value="1" name="answer">
+                        <label for="yes">Yes</label>
+
+                        <input id="no" type="radio" value="1" name="answer">
+                        <label for="no">No</label>
+                    </div>
+                    <div class="clubs">
+                        Committee's:
+                        <input type="checkbox">GDSC
+                        <input type="checkbox">GFG
+                        <input type="checkbox">CSI
+                        <input type="checkbox">Blockchain
+                        <input type="checkbox">Reef
+                    </div>
+                    Your expectations from the event : <input type="text" placeholder="text" size="50">
+                </div>
+
+            </form>
+            <div class="buttons">
+                <button class="submit">Submit</button>
+                <button class="reset">Reset</button>
+            </div>
+
+
+        </div>
+    </body>
+
+</html>
